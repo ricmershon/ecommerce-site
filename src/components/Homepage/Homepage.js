@@ -2,7 +2,7 @@ import React from 'react';
 import './homepage-styles.scss'
 import Directory from '../Directory/Directory.js'
 
-const Homepage = (params) => (
+const Homepage = ({ history }) => (
   <div className='homepage'>
     <Directory />
   </div>
